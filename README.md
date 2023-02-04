@@ -12,6 +12,8 @@
 
 ## Credits
 
+Junnel R. Padilla, Bootcamp Modules, pixabay.com
+
 ## License
 
 MIT License
