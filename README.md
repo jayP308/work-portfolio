@@ -8,6 +8,8 @@
 
 ## Screenshots
 
+<img src="./assets/images/sample-screenshot.html.png" />
+
 ## Credits
 
 ## License
