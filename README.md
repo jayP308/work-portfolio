@@ -8,8 +8,6 @@
 
 ## Screenshots
 
-<img src="./assets/images/sample-screenshot.html.png" />
-
 ## Credits
 
 Junnel R. Padilla, Bootcamp Modules, pixabay.com
