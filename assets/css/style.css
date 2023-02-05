@@ -76,3 +76,10 @@ a {
     font-size: 20px;
     border-left: solid 2px rgb(28, 65, 110);
 }
+
+#pre-work {
+    display: flex;
+    width: 50%;
+    padding-left: 50px;
+    border-left: solid 2px rgb(28, 65, 110);
+}
