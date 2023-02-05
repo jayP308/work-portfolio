@@ -57,19 +57,22 @@ a {
 
 #about-me, #work, #contact-info {
     color:rgb(32, 75, 128);
+    width: 10%;
     font-size: 40px;
-    margin: auto;
+    margin: 2rem;
     padding: 2rem;
     text-align: right;
 }
 
 .section-titles {
     display: flex;
-    margin: 8%;
-    width: 10%;
-    border-right: solid 2px rgb(28, 65, 110);
+    margin: 2%;
+    
 }
 
 #description {
-  display: inline-block;
+    display: flex;
+    padding-left: 50px;
+    font-size: 20px;
+    border-left: solid 2px rgb(28, 65, 110);
 }
