@@ -78,8 +78,15 @@ a {
 }
 
 #pre-work {
-    display: flex;
-    width: 50%;
+    display: block;
+    width: 30%;
     padding-left: 50px;
     border-left: solid 2px rgb(28, 65, 110);
+}
+
+#pre-work1 {
+    width: 15%;
+    height: 15%;
+    padding-left: 50px;
+    
 }
