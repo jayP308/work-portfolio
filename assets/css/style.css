@@ -277,7 +277,7 @@ a:hover {
 }
 
 /* Class Selector */
-.footer {
+footer {
     position: relative;
     height: 75px;
     margin-top: 50px;
@@ -285,8 +285,22 @@ a:hover {
     text-align: center;
 }
 /* Class Selector w/ Element Selector */
-.footer h3 {
+footer h3 {
     align-items: center;
     justify-content: center;
     font-size: 25px;
 }
+
+@media screen and (max-width: 996px) {
+    body {
+      background-color: blue;
+    }
+    .image1 {
+        position:relative;
+        display: inline-block;
+        width: 48.5%;
+        margin-left: 5px;
+        padding-top: 5px;
+    }
+  
+  }
