@@ -22,7 +22,11 @@ https://jayp308.github.io/work-portfolio/
 
 ## Screenshots
 
-<img src="./assets/images/sample2.png"/>
+Desktop View
+<img src="./assets/images/desktop-view-portfolio.png"/>
+
+Phone View
+<img src="./assets/images/website-phone-portrait-view.png"/>
 
 ## Credits
 

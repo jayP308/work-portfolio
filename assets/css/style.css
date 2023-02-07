@@ -122,12 +122,11 @@ a:hover {
     float: right;
 }
 
-/* ID Selector w/ hover interaction content */
 #avatar-image:hover {
-    max-height: 100px;
-    float: right;
-    padding: 2px;
+    background-color: rgb(28, 65, 110); ;
 }
+
+
 
 /* Class Selector */
  .description {
@@ -286,6 +285,7 @@ footer {
     clear: both;
     text-align: center;
 }
+
 /* Class Selector w/ Element Selector */
 footer h3 {
     align-items: center;
@@ -293,6 +293,7 @@ footer h3 {
     font-size: 25px;
 }
 
+/* phone compatibility portrait and landscape mode */
 @media screen and (max-width: 996px) {
     .image1 {
         position:relative;
