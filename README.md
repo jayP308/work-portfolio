@@ -2,9 +2,23 @@
 
 ## Description
 
+In this project, we were ask to create a Personal portfolio highlighting our
+projects we have done so far, how to connect with me and also little information
+about me.
+
+This website contains interactive content for easy navigation such as 
+About Me, Work, Contact Me and also a link to download my personal Resume.
+I also added additional interactive contact with my avatar, when click, it will
+take you to my Instagram page. As for the my Work section, when hovered to it, the background will turn almost black with the text title in white and take you to the webpage when clicked. As for my contact me section, i replaced the words with
+the logo to give my website more life, and if not familiar with certain logo, it can be hover over to see as to what website the icon belongs to.
+
 ## Usage
 
+This personal webpage portfolio gives a little bit description of myself, showcases my previous projects and also have links on how to contact me.
+
 ## URL
+
+https://jayp308.github.io/work-portfolio/
 
 ## Screenshots
 
