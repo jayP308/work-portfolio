@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css"/>
-    <title>JP's Work Portfolio</title>
+    <title>JP's Portfolio Page</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -16,38 +14,104 @@
             <ul>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#work">Work</a></li>
-                <li><a href="#contact-info">Contact Info</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a title="Click here to download Resume" href="./assets/images/images/Resume.png" download>Resume</a></li>
             </ul>
-        </nav>  
+        </nav>
     </header>
 
-    <img id="subtitle-bg" src="./assets/images/banner.jpeg" alt="green background with mouse looking pokemon yellow"/>
-    <h2 id="subheader-title"><strong>Junior Software Developer</strong></h2>
+    <figure>
+        <section class="container">
+            <img src="./assets/images/banner.jpeg">
+            <div class="subtitle-overlay">
+                <div class="subtitle"><strong>Junior Software Developer</strong></div>
+            </div>
+        </section>
+    </figure>
 
     <main>
-        <section class="section-titles">
-            <h2 id="about-me">About<br>Me</h2>
-            <p id="description">My name is Junnel R. Padilla. I am curently a part-time student at UC Berkeley Bootcamp Extension. 
-                I work for an insurance company for pharmacy. <br>I have been fascinated about coding since i took a course back in high
-                school but my financial situation is not so great back then that i chose a field that<br>is not an interest of mine. i learned 
-                the basic structure of HTML and CSS. As a hobby, I like to produce and make music, eat, sleep and play games.
+        <section id="about-me" class="content-info">
+        <h2>About<br>Me</h2>
+        <a title="Click here to view my Instagram page" href="https://www.instagram.com/jeeeeppeee/" target="_blank">
+            <img id="avatar-image" src="./assets/images/avatar-image.png">
+        </a>
+        </section>
+        <article class="description">
+            <p>
+                My name is Junnel R. Padilla, i was born in the Philippines.
+                My career right now is in the medical field. I joined the bootcamp
+                to divert from being a pharmacy technician finally do something I 
+                wanted to do, which is to be in the technology industry.<br>
+
+                <br>Currently, I have done the pre-work which is creating a study
+                guide website where i have to build, style a layout of the webpage and
+                store information regarding what <abbr id="subtext" title="Hypertext Markup Language">HTML,</abbr><abbr id="subtext" title="Cascading Style Sheet"> CSS,</abbr> Git, and JavaScript does.
+                The challenge 1 project is a little bit different given that we dont
+                have to do the code from scratch, where we replaced given non-semantic 
+                elements to semantic elements and also add accessibility features to 
+                the images. Hover on my avatar to know more!
             </p>
-        </section>
+        </article>
 
-        <section class="section-titles">
-            <h2 id="work">My<br>Work</h2>
-            <img id="pre-work" src="./assets/images/pikachu-bg.jpg"/>
-            <img id="pre-work1" src="./assets/images/pikachu-bg.jpg"/>
-            <img id="pre-work1" src="./assets/images/pikachu-bg.jpg"/>
+        <section id="work" class="content-info">
+        <h2>My<br>Work</h2>
         </section>
+        <div class="description">
+        <div class="image">
+            <a href="https://jayp308.github.io/horiseon-webpage/" target="_blank">
+                <img class="laptop-image" src="./assets/images/horiseon-gif.gif">
+                <div class="title-web">Horiseon Webpage</div>
+                <div class="front-background">
+                    <div class="web-title">Horiseon<br>Webpage</div>
+                </div>
+            </a>
+        </div>
+        <div class="image1">
+            <a href="https://junnel308.github.io/prework---study-guide/" target="_blank">
+                <img class="datachip-image" src="./assets/images/prework.gif">
+                <div class="title-web1">Pre-work<br>Guide</div>
+                <div class="front-background">
+                    <div class="web-title1">Pre-Work<br>Study guide</div>
+                </div>
+            </a> 
+        </div>
+        <div class="image1">
+            <a href="https://junnel308.github.io/challenge2-portfolio/" target="_blank">
+                <img class="pattern-image" src="./assets/images/portfolio-gif.gif">
+                <div class="title-web1">Portfolio</div>
+                <div class="front-background">
+                    <div class="web-title1">Portfolio</div>
+                </div>
+            </a>
+        </div>
+        </div>
 
-        <section class="section-titles">
-            <h2 id="contact-info">Contact<br>Info</h2>
-            <p id="description"></p>
+        <section id="contact-me" class="content-info">
+        <h2>Contact<br>Me</h2>
         </section>
-
+        <article class="description">
+            <p>
+                <a class="profile-links" href="https://github.com/junnel308" target="_blank">
+                    <img id="icons"src="./assets/images/github-icon.png" title="GitHub Profile">
+                </a>
+                <a class="profile-links" href="https://app.slack.com/client/T03S65LAJ2W/D0420KC5YF2" target="_blank">
+                    <img id="icons" src="./assets/images/slack-icon.png" title="Slack Profile">
+                </a>
+                <a class="profile-links" href="https://www.linkedin.com/in/jp-padilla-038854251/" target="_blank">
+                    <img id="icons" src="./assets/images/linkedin-icon.png" title="LinkedIn Profile">
+                </a>
+                <a class="profile-links" href="https://profile.indeed.com/?hl=en&co=US&from=gnav-jobseeker-profile--profile-one-frontend" target="_blank">
+                    <img id="icons" src="./assets/images/indeed-icon.png" title="Indeed Profile">
+                </a>
+            </p>
+        </article>
     </main>
 
+    <footer class="footer">
+        <h3>
+            &copy; Made By Junnel R. Padilla
+        </h3>
+    </footer>
+    
 </body>
 </html>

@@ -12,7 +12,7 @@
 
 ## Credits
 
-Junnel R. Padilla, Bootcamp Modules, pixabay.com
+Junnel R. Padilla, Bootcamp Modules, pixabay.com, Wikipedia, Giphy.com, tenor.com
 
 ## License
 
