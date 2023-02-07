@@ -8,7 +8,7 @@
 
 ## Screenshots
 
-<img src="./assets/images/download1.png"/>
+<img src="./assets/images/sample2.png"/>
 
 ## Credits
 
