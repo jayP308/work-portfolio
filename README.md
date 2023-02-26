@@ -23,10 +23,10 @@ https://jayp308.github.io/work-portfolio/
 ## Screenshots
 
 Desktop View
-<img src="./assets/images/desktop-view-portfolio.png"/>
+<img src="./assets/images/updated-desktopview-port.png"/>
 
 Phone View
-<img src="./assets/images/website-phone-portrait-view.png"/>
+<img src="./assets/images/updated-phoneview-port.png"/>
 
 ## Credits
 
